@@ -20,5 +20,5 @@ server:
 
 security:
   jwt:
-    secret: chiaveSegreta
+    secret: U5aE9rLJqNp4vXzT1WcK7yZtQ3gB0dLu
     expiration: 3600000  #1 ora in millisecondi
