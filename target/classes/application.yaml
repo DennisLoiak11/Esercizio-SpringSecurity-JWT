@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: testAuth
+
+  data:
+    mongodb:
+      port: 27017
+      host: localhost
+      database: test-rbacAuth
+
+mvc:
+  throw-exception-if-no-handler-found: true
+  web:
+    resources:
+      add-mappings: false
+
+server:
+  port: 8080
+
+
+security:
+  jwt:
+    secret: chiaveSegreta
+    expiration: 3600000  #1 ora in millisecondi
